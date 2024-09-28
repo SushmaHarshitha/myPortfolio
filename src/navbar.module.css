@@ -1,0 +1,355 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* position: fixed; */
+}
+
+#nav{
+    background-color: black;
+    border: 3px solid;
+    height: 100px;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}
+#home{
+    text-decoration: none;
+}
+#h1{
+    font-size: 30px;
+    padding-top: 25px;
+    padding-left: 50px;
+    color: darkorange;
+}
+#ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: 3px solid; */
+    height: 29px;
+    width: 530px;
+    position: absolute;
+    top: 37px;
+    left: 300px;   
+}
+.nav1{
+text-decoration: none;
+color: white;
+font-weight: 600;
+}
+.nav1 .li:hover{
+    color: darkorange;
+    text-decoration: underline;
+}
+.li{
+    font-size: 18px;
+    text-decoration:dotted;
+}
+.btn{
+    position: absolute;
+    top: 25px;
+    left: 850px;
+    background-color: white;
+    border-radius: 10px;
+    color: black;
+    height: 40px;
+    width: 130px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.btn:hover{
+    cursor: pointer;
+}
+
+@media(min-width:400px) and (max-width: 768px){
+    #nav{
+        background-color: black;
+        border: 3px solid;
+        height: 70px;
+        width: 100%;
+        position: sticky;
+        top: 0px;
+    }
+    #home{
+        text-decoration: none;
+    }
+    #h1{
+        font-size: 22px;
+        padding-top: 20px;
+        padding-left: 40px;
+        color: darkorange;
+    }
+    #ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        /* border: 3px solid; */
+        height: 29px;
+        width: 400px;
+        position: absolute;
+        top: 23px;
+        left: 200px;   
+    }
+    .nav1{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    }
+    .nav1 .li:hover{
+        color: darkorange;
+        text-decoration: underline;
+    }
+    .li{
+        font-size: 18px;
+        text-decoration:dotted;
+    }
+    .btn{
+        position: absolute;
+        top: 21px;
+        left: 630px;
+        background-color: white;
+        border-radius: 10px;
+        color: black;
+        height: 30px;
+        width: 120px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .btn:hover{
+        cursor: pointer;
+    }
+}
+
+@media(min-width:769px) and (max-width: 1024px){
+    #nav{
+        background-color: black;
+        border: 3px solid;
+        height: 80px;
+        width: 100%;
+        position: sticky;
+        top: 0px;
+    }
+    #home{
+        text-decoration: none;
+    }
+    #h1{
+        font-size: 30px;
+        padding-top: 21px;
+        padding-left: 50px;
+        color: darkorange;
+    }
+    #ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        /* border: 3px solid; */
+        height: 29px;
+        width: 530px;
+        position: absolute;
+        top: 30px;
+        left: 270px;   
+    }
+    .nav1{
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+    }
+    .nav1 .li:hover{
+        color: darkorange;
+        text-decoration: underline;
+    }
+    .li{
+        font-size: 21px;
+        text-decoration:dotted;
+    }
+    .btn{
+        position: absolute;
+        top: 21px;
+        left: 860px;
+        background-color: white;
+        border-radius: 10px;
+        color: black;
+        height: 40px;
+        width: 130px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+    .btn:hover{
+        cursor: pointer;
+    }
+}
+@media(min-width: 1025px) and (max-width: 1440px){
+    #nav{
+        background-color: black;
+        border: 3px solid;
+        height: 80px;
+        width: 100%;
+        position: sticky;
+        top: 0px;
+    }
+    #home{
+        text-decoration: none;
+    }
+    #h1{
+        font-size: 33px;
+        padding-top: 21px;
+        padding-left: 120px;
+        color: darkorange;
+    }
+    #ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        /* border: 3px solid; */
+        height: 29px;
+        width: 620px;
+        position: absolute;
+        top: 27px;
+        left: 400px;   
+    }
+    .nav1{
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+    }
+    .nav1 .li:hover{
+        color: darkorange;
+        text-decoration: underline;
+    }
+    .li{
+        font-size: 23px;
+        text-decoration:dotted;
+    }
+    .btn{
+        position: absolute;
+        top: 21px;
+        left: 1220px;
+        background-color: white;
+        border-radius: 10px;
+        color: black;
+        height: 40px;
+        width: 140px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .btn:hover{
+        cursor: pointer;
+    }
+}
+@media(min-width:1441px) and (max-width: 1920px){
+    #nav{
+        background-color: black;
+        border: 3px solid;
+        height: 120px;
+        width: 100%;
+        position: sticky;
+        top: 0px;
+    }
+    #home{
+        text-decoration: none;
+    }
+    #h1{
+        font-size: 45px;
+        padding-top: 25px;
+        padding-left: 140px;
+        color: darkorange;
+    }
+    #ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        /* border: 3px solid; */
+        height: 29px;
+        width: 1000px;
+        position: absolute;
+        top: 37px;
+        left: 550px;   
+    }
+    .nav1{
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+    }
+    .nav1 .li:hover{
+        color: darkorange;
+        text-decoration: underline;
+    }
+    .li{
+        font-size: 38px;
+        text-decoration:dotted;
+    }
+    .btn{
+        position: absolute;
+        top: 30px;
+        left: 1680px;
+        background-color: white;
+        border-radius: 10px;
+        color: black;
+        height: 60px;
+        width: 190px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .btn:hover{
+        cursor: pointer;
+    }
+}
+@media(min-width:1921px) and (max-width: 2560px){
+    #nav{
+        background-color: black;
+        border: 3px solid;
+        height: 120px;
+        width: 100%;
+        position: sticky;
+        top: 0px;
+    }
+    #home{
+        text-decoration: none;
+    }
+    #h1{
+        font-size: 45px;
+        padding-top: 29px;
+        padding-left: 160px;
+        color: darkorange;
+    }
+    #ul{
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        /* border: 3px solid; */
+        height: 29px;
+        width: 1070px;
+        position: absolute;
+        top: 37px;
+        left: 650px;   
+    }
+    .nav1{
+        text-decoration: none;
+        color: white;
+        font-weight: 600;
+    }
+    .nav1 .li:hover{
+        color: darkorange;
+        text-decoration: underline;
+    }
+    .li{
+        font-size: 40px;
+        text-decoration:dotted;
+    }
+    .btn{
+        position: absolute;
+        top: 30px;
+        left: 1970px;
+        background-color: white;
+        border-radius: 10px;
+        color: black;
+        height: 60px;
+        width: 190px;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .btn:hover{
+        cursor: pointer;
+    }
+}

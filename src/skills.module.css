@@ -1,0 +1,198 @@
+h1{
+    /* font-size: px; */
+    padding-top: 30px;
+    padding-left: 40px;
+    color: darkorange;
+}
+#heading{
+    text-align: center;
+    color:darkorange;
+}
+.ul{
+    margin-left: 180px;
+    font-size: 21px;
+    font-weight: 700;
+    
+}
+.ul1{
+    margin-left: 180px;
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.div{
+    height: 632px;
+    background-image: url("../public/images/bg-color1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+}
+.section{
+    /* border: 3px solid; */
+    border-radius: 7px;
+    width: 500px;
+    height: 570px;
+    margin-top: 30px;
+    margin-left: 85px;
+}
+
+@media(min-width:400px) and (max-width: 768px){
+    .div{
+        height: 502px;
+        background-image: url("../public/images/bg-color1.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: flex-start;
+    }
+    #heading{
+        color:darkorange;
+    }
+    h1{
+        /* font-size: px; */
+        padding-top: 30px;
+        padding-left: 25px;
+        color: darkorange;
+    }
+    .ul{
+        margin-left: 140px;
+        font-size: 21px;
+        font-weight: 700;
+        
+    }
+    .ul1{
+        margin-left: 140px;
+        font-size: 21px;
+        font-weight: 700;
+        margin-top: 20px;
+    }
+    
+    .section{
+        /* border: 3px solid; */
+        border-radius: 7px;
+        width: 500px;
+        height: 480px;
+        margin-top: 11px;
+        margin-left: 5px;
+    }
+}
+
+@media(min-width:769px) and (max-width: 1024px){
+    .div{
+        height: 492px;
+        background-image: url("../public/images/bg-color1.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: flex-start;
+    }
+    #heading{
+        color:darkorange;
+    }
+    h1{
+        padding-top: 23px;
+        padding-left: 97px;
+        color: darkorange;
+    }
+    .ul{
+        margin-left: 190px;
+        font-size: 21px;
+        font-weight: 700;
+        
+    }
+    .ul1{
+        margin-left: 190px;
+        font-size: 21px;
+        font-weight: 700;
+        margin-top: 20px;
+    }
+    .section{
+        /* border: 3px solid; */
+        border-radius: 7px;
+        width: 500px;
+        height: 460px;
+        margin-top: 11px;
+        margin-left: 5px;
+    }
+}
+@media(min-width: 1025px) and (max-width: 1440px){
+    .div{
+        height: 492px;
+        background-image: url("../public/images/bg-color1.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: flex-start;
+    }
+    #heading{
+        text-align: center;
+        color:darkorange;
+    }
+    h1{
+        padding-top: 23px;
+        padding-left: 180px;
+        color: darkorange;
+    }
+    .ul{
+        margin-left: 290px;
+        font-size: 21px;
+        font-weight: 700;
+        
+    }
+    .ul1{
+        margin-left: 290px;
+        font-size: 21px;
+        font-weight: 700;
+        margin-top: 20px;
+    }
+    .section{
+        /* border: 3px solid; */
+        border-radius: 7px;
+        width: 500px;
+        height: 460px;
+        margin-top: 11px;
+        margin-left: 5px;
+    }
+}
+@media(min-width:1921px) and (max-width: 2560px){
+    .div{
+        height: 978px;
+        background-image: url("../public/images/bg-color1.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        justify-content: flex-start;
+    }
+    #heading{
+        text-align: center;
+        color:darkorange;
+        font-size: 45px;
+    }
+    h1{
+        padding-top: 55px;
+        padding-left: 180px;
+        color: darkorange;
+        font-size: 38px;
+    }
+    .ul{
+        margin-left: 380px;
+        font-size: 35px;
+        font-weight: 700;
+        
+    }
+    .ul1{
+        margin-left: 380px;
+        font-size: 35px;
+        font-weight: 700;
+        margin-top: 24px;
+    }
+    .section{
+        /* border: 3px solid; */
+        border-radius: 7px;
+        width: 1200px;
+        height: 860px;
+        margin-top: 11px;
+        margin-left: 5px;
+    }
+}

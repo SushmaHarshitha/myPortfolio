@@ -1,0 +1,63 @@
+#sectionCertificate{
+    background-image: url("../public/images/bg-color1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 632px;
+}
+
+@media(min-width:425px) and (max-width: 768px){
+    #sectionCertificate{
+        background-image: url("../public/images/bg-color1.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 500px;
+    }
+    #ul{
+        padding-left:100px;
+        padding-top:50px;
+        font-size:18px;
+        line-height:25px
+    }
+}
+@media(min-width:769px) and (max-width: 1024px){
+    #sectionCertificate{
+        background-image: url("../public/images/bg-color1.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 470px;
+    }
+    #ul{
+        padding-left:100px;
+        padding-top:50px;
+        font-size:20px;
+        line-height:25px
+    } 
+}
+@media(min-width: 1025px) and (max-width: 1440px){
+    #sectionCertificate{
+        background-image: url("../public/images/bg-color1.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 470px;
+    }
+    #ul{
+        padding-left:100px;
+        padding-top:50px;
+        font-size:19px;
+        line-height:25px
+    }
+}
+@media(min-width:1921px) and (max-width: 2560px){
+    #sectionCertificate{
+        background-image: url("../public/images/bg-color1.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 978px;
+    }
+    #ul{
+        padding-left:130px;
+        padding-top:100px;
+        font-size:35px;
+        line-height:45px
+    }
+}
